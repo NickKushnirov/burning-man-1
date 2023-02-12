@@ -1,0 +1,109 @@
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open-Sans', sans-serif;
+    font-style: normal; 
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-item {
+    font-family: 'Anton';   
+    font-size: 14px;
+    line-height: 1,5;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.contact-item {
+    font-family: 'Anton';
+    font-size: 17px;
+    line-height: 1,53;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+/* hero */
+.hero-header {
+    font-family: 'Anton';
+    font-size: 100px;
+    line-height: 1,51;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.hero-header-slogan {
+    font-family: 'Anton';
+    font-size: 30px;
+    line-height: 1,5;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.btn-hero {
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1,53;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+    cursor: pointer;
+}
+
+/* about-section */
+
+.about-header {
+    font-family: 'Anton';
+    font-size: 50px;
+    line-height: 1,5;
+    text-transform: uppercase;
+}
+
+.about-item-header {
+    font-family: 'Anton';
+    font-size: 25px;
+    line-height: 1,52px;
+    text-transform: uppercase;
+}
+
+.about-item-description {
+    font-size: 16px;
+    line-height: 1, 625;
+}
+
+.rights {
+    font-size: 15px;
+    line-height: 1,33;
+}
