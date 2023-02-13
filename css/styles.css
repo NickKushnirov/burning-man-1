@@ -25,8 +25,6 @@ body {
 
 .container {
     width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -52,6 +50,12 @@ body {
     line-height: 1,53;
     text-transform: uppercase;
     /* color: #FFFFFF; */
+}
+
+/* header */
+.header-all-elements {
+    display: flex;
+    align-items: center;
 }
 
 /* hero */
