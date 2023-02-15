@@ -35,36 +35,76 @@ body {
 .link {
     text-decoration: none;
 }
-
-.nav-item {
-    font-family: 'Anton';   
-    font-size: 14px;
-    line-height: 1,5;
-    text-transform: uppercase;
-    /* color: #FFFFFF; */
-}
-
-.contact-item {
-    font-family: 'Anton';
-    font-size: 17px;
-    line-height: 1,53;
-    text-transform: uppercase;
-    /* color: #FFFFFF; */
-}
-
 /* header */
+.header-section {
+    background-color: aqua;
+}
+
 .header-all-elements {
     display: flex;
     align-items: center;
 }
 
+.nav-section {
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-link {
+    font-family: 'Anton';
+    font-size: 14px;
+    line-height: 1, 5;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu-item {
+    margin-right: 40px;
+}
+.menu-item,
+.contact-item,
+.logo {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.contact-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact-link {
+    font-family: 'Anton';
+    font-size: 17px;
+    line-height: 1, 53;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 /* hero */
+.hero-section {
+    padding-bottom: 322px;
+    margin-bottom: 113px;
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .hero-header {
     font-family: 'Anton';
     font-size: 100px;
     line-height: 1,51;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
+    margin-bottom: 35px;
 }
 
 .hero-header-slogan {
@@ -72,7 +112,7 @@ body {
     font-size: 30px;
     line-height: 1,5;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .btn-hero {
@@ -82,17 +122,38 @@ body {
     line-height: 1,53;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
     cursor: pointer;
+    width: 238px;
+    height: 57px;
+    border: 1px solid #000000;
+    background-color: transparent;
+    border-color: #FFFFFF;
 }
 
 /* about-section */
+.about-section {
+    margin-bottom: 114px;
+}
 
 .about-header {
     font-family: 'Anton';
     font-size: 50px;
     line-height: 1,5;
     text-transform: uppercase;
+    margin-bottom: 56px;
+}
+
+.about-cards-list {
+    display: flex;
+}
+
+.about-card:first-child {
+    margin-right: 30px;
+}
+
+.about-card {
+    height: 633px;
 }
 
 .about-item-header {
@@ -100,14 +161,33 @@ body {
     font-size: 25px;
     line-height: 1,52px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .about-item-description {
     font-size: 16px;
     line-height: 1, 625;
+    height: 260px;
+}
+
+.pic-list {
+    display: flex;
+}
+
+.pic-item:first-child {
+    margin-right: 30px;
+}
+
+/* footer */
+.rights-list {
+    display: flex;
+    margin-bottom: 104px;
 }
 
 .rights {
     font-size: 15px;
     line-height: 1,33;
+}
+.rights:first-child{
+    margin-right: 64px;
 }
